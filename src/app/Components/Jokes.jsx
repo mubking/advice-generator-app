@@ -14,7 +14,7 @@ const Jokes = ({ slip, fetchRandomJoke }) => {
       {slip ? (
         <div className="bg-[#313A49] min-h-[35vh] p-10  rounded-lg shadow text-center flex flex-col items-center justify-center">
           <h2 className="text-xl font-bold mb-2 text-[#4BD194]">Advice {slip.id}</h2>
-          <p className="text-[#CEE3E9] text-xl">{slip.advice}</p>
+          <p className="text-[#CEE3E9] text-xl"> " { slip.advice} "</p>
 
          <div className="flex flex-row">
           {/* <div className=""></div> */}
@@ -32,7 +32,7 @@ const Jokes = ({ slip, fetchRandomJoke }) => {
           </div>
         </div>
       ) : (
-        <p className="text-white text-3xl">Loading Advice...</p>
+        <p className="text-white text-3xl"> Loading Advice...</p>
       )}
     </div>
   );
