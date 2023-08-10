@@ -89,7 +89,7 @@ export default function Home() {
         <h1
           className={`text-${
             isDarkMode ? "white" : "black"
-          } text-3xl font-bold text-center mb-8`}
+          } text-3xl fifteen font-bold text-center mb-8`}
         >
           Welcome to the Advice Generator App
         </h1>
@@ -109,23 +109,6 @@ export default function Home() {
           </button>
         </div>
 
-        <div
-          className={`attribution text-${
-            isDarkMode ? "white" : "black"
-          } p- w-[100%] text-center `}
-        >
-          Challenge by{" "}
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-            Frontend Mentor
-          </a>
-          . Coded by{" "}
-          <a
-            href="mailto:Adeshinamubarak6@gmail.com?subject=Message%20from%20App"
-            target="_blank"
-          >
-            Adeshinamubarak6@gmail.com
-          </a>
-        </div>
       </main>
     </div>
   );
