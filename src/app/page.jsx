@@ -112,7 +112,7 @@ export default function Home() {
         <div
           className={`attribution text-${
             isDarkMode ? "white" : "black"
-          } p-2 w-[100%] text-center`}
+          } p- w-[100%] text-center `}
         >
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
