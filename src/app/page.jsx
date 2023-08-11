@@ -32,10 +32,7 @@ export default function Home() {
     textArea.select();
     document.execCommand("copy");
     document.body.removeChild(textArea);
-    setIsCopied(true); // Set the state to indicate text is copied
-  
-
-     // Reset the state after a delay (e.g., 2 seconds)
+    setIsCopied(true);
      setTimeout(() => {
       setIsCopied(false);
     }, 2000);
